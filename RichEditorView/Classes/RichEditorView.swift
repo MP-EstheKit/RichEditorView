@@ -143,7 +143,7 @@ open class RichEditorView: UIView, UIScrollViewDelegate, UIWebViewDelegate, UIGe
         webView.scalesPageToFit = false
         webView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         webView.dataDetectorTypes = UIDataDetectorTypes()
-        webView.backgroundColor = .white
+        webView.backgroundColor = .clear
         
         webView.scrollView.isScrollEnabled = isScrollEnabled
         webView.scrollView.bounces = false
