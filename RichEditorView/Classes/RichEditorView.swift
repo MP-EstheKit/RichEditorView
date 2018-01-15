@@ -135,10 +135,11 @@ open class RichEditorView: UIView, UIScrollViewDelegate, UIWebViewDelegate, UIGe
     }
     
     private func setup() {
-        backgroundColor = .red
+        backgroundColor = .clear
         
         webView.frame = bounds
         webView.delegate = self
+        webView.isOpaque = false
         webView.keyboardDisplayRequiresUserAction = false
         webView.scalesPageToFit = false
         webView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
