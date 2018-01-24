@@ -55,7 +55,7 @@ div {
     height: 100%;
     overflow: auto;
     display: block;
-    font-family: 'HelveticaNeue';
+    font-family: '-apple-system', 'HelveticaNeue';
     color:#666666;
     font-size: 12pt;
 }
